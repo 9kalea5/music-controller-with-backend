@@ -1,9 +1,13 @@
 import React from "react";
 import {render} from "react-dom"
+import HomePage from "./Homepage";
+
 
 export default function App(){
     return(
-        <h1>Test 1</h1>
+        <>
+            <HomePage />
+        </>
     )
 }
 const appDiv = document.getElementById("app")
